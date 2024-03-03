@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.converter-container {
+    border: 5px solid #816dff; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 0 auto; 
+    width: 400px; 
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.temperature-display {
+    font-weight: bold;
+    padding: 15px;
+    border: 5px solid #ff7878; 
+    border-radius: 10px; 
+    margin-top: 10px; 
+    transition: all 0.3s ease-in-out;
+}
+
+.temperature-display:hover {
+    border-color: #4CAF50; 
+}
+
+#result {
+    font-weight: bold;
+}
